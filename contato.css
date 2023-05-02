@@ -1,0 +1,39 @@
+html ,  body {
+    margin :  0 ;
+}
+body {
+    background-color : #dedede ;
+    display : flex;
+   justify-content: center;
+}
+
+.wrapper {
+    width :  100% ;
+    display:flex;
+    margin:  90 auto;
+    background-color:rgb(241, 241, 241);
+}
+.main {
+    display : flex;
+    flex-flow:column;
+    width :  100% ;
+    justify-content: center;
+}
+.menu {
+    width :  25% ;
+    background-color: rgb(255, 255, 255);
+    padding :  10 px  100%  0 px ;
+}
+.header {
+    background-color:  rgb ( 5 ,  108 ,  108 );
+    min-height :  150 px ;
+}
+.content {
+    background-color: white;
+    min-height :  300 px ;
+    padding :  20 px ;
+}
+.footer {
+    background-color:  rgb ( 99 ,  56 ,  240 );
+    min-height :  150 px ;
+}
